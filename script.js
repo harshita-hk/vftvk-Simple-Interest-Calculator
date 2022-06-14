@@ -24,7 +24,7 @@ function compute() {
 //update ther rate value
 function getSliderValue() {
   document.getElementById("rate_val").innerHTML =
-    document.getElementById("rate").value;
+    document.getElementById("rate").value+"%";
 }
 
 //Check for positive values
